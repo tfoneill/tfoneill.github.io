@@ -31,14 +31,14 @@ a:visited { color: #a0a; }
 
 @font-face 
 {
-  font-family: 'font1';
-  src: url('fonts/intro.ttf');
+  font-family: 'CustomFont2';
+  src: url('intro.ttf')
 }
 
 @font-face 
 {
   font-family: 'body';
-  src: url('fonts/arvo.ttf');
+  src: url('arvo.ttf');
 }
 
 /*****************************************************************************/
@@ -99,7 +99,7 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra {
-  color: #aaa;
+  color: #CCE0EB;
   margin-left: 1em;
 }
 
@@ -178,18 +178,53 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
-/* About
+/* Img
 /*
 /*****************************************************************************/
 
+div.img
+  {
+  margin:10px;
+  padding: 5px;
+  height:auto;
+  width:auto;
+  text-align:center;
+  background-color: #006699;
+  }
+div.img img
+  {
+  margin:5px;
+  }
+div.img a:hover img
+  {
+  border:1px solid #fff;
+  }
 
+/*****************************************************************************/
+/*
+/* Contact
+/*
+/*****************************************************************************/
 
+.contact a
+{
+  color: #82B4CD;
+}
 
+.logo
+{
+position: relative;
+bottom: 40px;
+left: 180px;
+}
 
-
-
-
-
+.me 
+{
+  position: relative;
+bottom: 30px;
+left: 240px;
+opacity: .9;
+}
 
 
 
